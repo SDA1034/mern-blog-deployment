@@ -92,11 +92,15 @@ This assignment demonstrates the full deployment of a MERN stack blog applicatio
 		}
 	]
 }
-- Create access key and save it
+[
+
+--------------
+## Create access key and save it
 -------------------
-# EC2 Setup
+## EC2 Setup
 -Launched t3.mediume instance in eu-north-1
 -Opened ports: 22, 80, 443, 5000
 -Installed Node.js (via NVM), PM2, AWS CLI
 -Cloned project and configured .env files
 -Started backend using PM2
+
